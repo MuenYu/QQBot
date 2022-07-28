@@ -1,0 +1,29 @@
+system:
+  qq:
+  opq:
+  admin:
+  headmsg:
+  errmsg:
+function:
+  -
+    name:
+    trigger: all
+    type: text
+    desc:
+    admin-only: false
+    config:
+      value:
+  - name:
+    trigger: all
+    type: moetu
+    desc:
+    admin-only: false
+    config:
+      api:
+  - name:
+    trigger: all
+    type: hitokoto
+    desc:
+    admin-only: false
+    config:
+      api:
